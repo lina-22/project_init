@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box sizing</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .parent {
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        margin: 200px auto;
+      }
+      .child {
+        background-color: blueviolet;
+        color: white;
+        font-size: 22px;
+        height: 100px;
+        margin-top: 50px;
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">child here</div>
+    </div>
+  </body>
+</html>

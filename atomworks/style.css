@@ -1,0 +1,134 @@
+/* zéro la racine */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6acdec;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* div general */
+.container {
+  width: 960px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eafcff;
+  border-radius: 10px;
+}
+
+/* css header */
+header {
+  width: 960px;
+  height: 250px;
+  background-image: url(../img/header/header2.jpg);
+  border-bottom: 2px solid #000;
+}
+
+/* css navigation */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #94989b;
+  height: 30px;
+  border: 2px solid #000;
+}
+
+/* css élément de navigation */
+nav ul li {
+  padding-top: 5px;
+  font-weight: normal;
+}
+
+/* lien non survolé */
+nav ul li a {
+  text-decoration: none;
+  color: bisque;
+  letter-spacing: 2px;
+  color: #111;
+}
+
+/* lien survolé */
+nav ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+  background-color: #eafcff;
+}
+
+.titres {
+  float: right;
+  padding-top: 20px;
+  padding-right: 60px;
+}
+
+.titres h1 {
+  font-size: 69px;
+  text-decoration: underline;
+}
+
+.titres h2 {
+  font-size: 25px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h3 {
+  font-size: 22px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.para-gauche {
+  text-align: justify;
+  padding-top: 8px;
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+
+.coco {
+  float: right;
+  margin-left: 15px;
+}
+
+/* Taille img à 30% si texte 70%  */
+img.coco {
+  width: 250px;
+  height: 300px;
+  padding: 5px;
+  border: 2px solid #333;
+}
+
+.pied {
+  background-color: #7777aa;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.adresse {
+  background-color: cadetblue;
+  width: 33%;
+  text-align: center;
+}
+
+.adresse img {
+  width: 100px;
+  padding-bottom: 10px;
+}
+
+.map {
+  background-color: coral;
+  width: 33%;
+}
+
+.video {
+  background-color: lightgreen;
+  width: 33%;
+}
